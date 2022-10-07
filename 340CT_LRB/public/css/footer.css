@@ -1,0 +1,18 @@
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    background-color: #de4e4e;
+    color: white;
+    display: block;
+    text-align: center;
+}
+    
+html {
+        position: relative;
+        padding-bottom: 10%;
+        min-height: 100%;
+        margin-bottom: 61px;
+    }

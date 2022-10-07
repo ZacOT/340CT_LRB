@@ -1,0 +1,97 @@
+
+body{margin:0; padding:0; font-size:13px; font-family:Georgia, "Arial", Times, serif; color:black; background-color:#ffffff;}
+
+nav ul{margin:0; padding:0; list-style:none;}
+
+.clear:after{content:"."; display:block; height:0; clear:both; visibility:hidden; line-height:0;}
+.clear{display:block; clear:both;}
+html[xmlns] .clear{display:block;}
+* html .clear{height:1%;}
+
+/* ----------------------------------------------Wrapper-------------------------------------*/
+
+div.wrapper{display:block; width:100%; margin:0; padding:0; text-align:left;}
+
+.row1, .row1 a{color:rgb(255, 255, 255); background-color:#de4e4e;} /*Header banner*/
+.row2{color: black; background-color:#F09090;} /*Home page background color*/
+.row2 a{color:black; background-color:#F09090;}
+.row3, .row3 a{color:black; background-color:#de4e4e;}
+
+/*----------------------------------------------Generalise-------------------------------------*/
+
+#header, #container, #footer{display:block; width:960px; margin:0 auto;}
+
+/*----------------------------------------------Header-------------------------------------*/
+
+/* #header{padding: 20px 10px 10px 10px ;} */
+#header #hgroup{float:left; margin:0 0 20px 0; margin-left:0%; width: 82%; height: 90%;}
+#header #hgroup h1, #header #hgroup h2{font-weight:normal; text-transform:none;}
+
+#header nav{display:block; float:right; margin:10px 0 0 0; padding:20px 0; color: black; background-color:#F09090;}
+#header nav ul{padding:0 100px;}
+#header nav li{display:inline; margin-right:30px; text-transform:uppercase;}
+#header nav li.last{margin-right:0;}
+#header nav li a{color:black; background-color:#F09090;} /*Header color for the text links*/
+#header nav li a:hover{color:#e43939; background-color:white;}
+
+.wrapper-bookrow{
+    display: grid;
+    grid-template-columns: repeat(5, 20fr); 
+    gap: 90px;
+    margin-left: 200px;    
+    margin-right: 150px;
+    justify-content: center;
+  }
+
+  .wrapper-book{
+    border-style: solid;
+    height:min-content; 
+    padding-top:20px;
+    padding-bottom:10px;   
+  }
+
+  .welcomeMsg {
+    align-content: right;
+    padding: 25px 50px 0px 0px;
+    margin-left: 80%;    
+
+  }
+
+  .badge {
+    padding-left: 10px;
+    padding-right: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 12px;
+  }
+  
+  .label-warning[href],
+  .badge-warning[href] {
+    background-color: #c67605;
+  }
+  
+  #lblCartCount {
+      font-size: 12px;
+      padding-left: 5px;
+      background: #ff0000;
+      color: #fff;
+      padding: 0 6px;
+      vertical-align: top;
+      margin-left: -10px; 
+  }
+
+  #header1 {
+    padding: 12px;
+    text-align: center;
+    background: #F09090;
+    color: #e43939;
+    font-size: 16px;
+
+  }
+
+#header1 #hgroup h1, #header #hgroup h2{font-weight:normal; text-transform:none;}
+#header1 nav ul{padding:0 100px;}
+#header1 nav li{display:inline; margin-right:30px; text-transform:uppercase;}
+#header1 nav li.last{margin-right:0;}
+#header1 nav li a{color:black; background-color:#F09090;} /*Header color for the text links*/
+#header1 nav li a:hover{color:#e43939; background-color:#F09090;}
