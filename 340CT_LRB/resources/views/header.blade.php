@@ -21,7 +21,7 @@
                     </td>
 
                     <td>
-                        <h1>Online Book Store </h1>
+                        <h1>Little Red Book </h1>
                     </td>
 
                     <?php 
